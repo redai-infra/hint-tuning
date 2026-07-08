@@ -149,7 +149,7 @@ python construction/merge.py \
 
 ## SFT Training
 
-Our experiments use [Relax](https://github.com/redai-infra/Relax), an open-source post-training framework supporting both SFT and RL.  
+Our experiments use [Relax](https://github.com/redai-infra/Relax), an open-source post-training framework supporting both SFT and RL, [related commit](https://github.com/redai-infra/Relax/commit/5f86ed96786022640c48143bddcb465eb4679682), [run scripts](https://github.com/redai-infra/Relax/tree/main/examples/cot_compression).
 The dataset (`hint_tuning_1k.json`) is in **Alpaca format** (`instruction` / `input` / `output` fields).
 
 Training hyperparameters follow [s1](https://arxiv.org/abs/2501.19393). 
